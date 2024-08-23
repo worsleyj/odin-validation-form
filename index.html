@@ -11,19 +11,33 @@
       <h1>Validation Form</h1>
 
       <label for="email">Email</label>
-      <input id="email" minlength="3" type="email" />
+      <input
+        id="email"
+        minlength="3"
+        type="email"
+        placeholder="john@gmail.com"
+        required
+      />
 
       <label for="zip-code">Zip Code</label>
-      <input id="zip-code" type="text" />
+      <input
+        id="zip-code"
+        pattern="[0-9]{5}"
+        minlength="5"
+        maxlength="5"
+        type="text"
+        placeholder="#####"
+        required
+      />
 
       <label for="password">Password</label>
-      <input id="password" minlength="5" type="password" />
+      <input id="password" minlength="5" type="password" required />
 
       <label for="password-confirm">Password Confirm</label>
-      <input id="password-confirm" minlength="5" type="password" />
+      <input id="password-confirm" minlength="5" type="password" required />
 
       <label for="country">Country</label>
-      <select id="country" name="country" class="form-control">
+      <select id="country" name="country" class="form-control" required>
         <option value="Afghanistan">Afghanistan</option>
         <option value="Åland Islands">Åland Islands</option>
         <option value="Albania">Albania</option>
