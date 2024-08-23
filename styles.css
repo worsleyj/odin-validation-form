@@ -1,0 +1,19 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form > label {
+  padding: 12px;
+}
+
+.submit {
+  padding: 12px;
+  margin: 24px;
+}
+
+.submit:hover {
+  opacity: 0.6;
+}
