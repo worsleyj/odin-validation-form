@@ -9,6 +9,14 @@ form > label {
   padding: 12px;
 }
 
+input:valid {
+  background-color: green;
+}
+
+input:invalid {
+  background-color: red;
+}
+
 .submit {
   padding: 12px;
   margin: 24px;
