@@ -36,7 +36,7 @@ function validateForm() {
 function createMessage(message) {
   const newMessage = document.createElement("div");
   newMessage.textContent = message;
-  messages.append(newMessage);
+  messages.prepend(newMessage);
 }
 
 function verifyPasswords() {
